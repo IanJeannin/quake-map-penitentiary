@@ -4,62 +4,61 @@ Output file: penitentiary.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-            6 faces
-            1 brushes
-            2 entities
-            1 unique texnames
-            3 texinfo
+          288 faces
+           48 brushes
+            7 entities
+            4 unique texnames
+           40 texinfo
 
-*** WARNING 00: No wad or _wad key exists in the worldmodel
+Opened WAD: C:/quake-map-penitentiary/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-            1 brushes
-            6 planes
+           45 brushes
+           55 planes
 ---- CSGFaces ----
-            6 brushfaces
-            6 csgfaces
-            6 mergedfaces
+          270 brushfaces
+          289 csgfaces
+          261 mergedfaces
 ---- SolidBSP ----
-            6 split nodes
-            1 solid leafs
-            6 empty leafs
+          257 split nodes
+           88 solid leafs
+          170 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-            6 leaffaces
-            6 nodefaces
+          497 leaffaces
+          493 nodefaces
 ---- Portalize ----
-            6 vis leafs
-            6 vis clusters
-           12 vis portals
+          170 vis leafs
+          170 vis clusters
+          409 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-0 -0 40), no filling performed.
+*** WARNING 10: Reached occupant at (-24 8 440), no filling performed.
 Leak file written to penitentiary.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 19: No entities in empty space -- no filling performed (hull 1)
+*** WARNING 10: Reached occupant at (-24 8 440), no filling performed.
 Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
-*** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote penitentiary.bsp
-           17 planes              340
-            8 vertexes             96
-            6 nodes               144
-            3 texinfo             120
-            6 faces               120
-           12 clipnodes            96
-            7 leafs               196
-            6 marksurfaces         12
-           24 surfedges            96
-           13 edges                52
-            1 textures              8
+          194 planes             3880
+          546 vertexes           6552
+          275 nodes              6600
+           39 texinfo            1560
+          511 faces             10220
+          738 clipnodes          5904
+          189 leafs              5292
+          515 marksurfaces       1030
+         2044 surfedges          8176
+         1204 edges              4816
+            4 textures          21940
               lightdata             0
               visdata               0
-              entdata              86
+              entdata             331
 
-0.044 seconds elapsed
-Peak memory usage: 53804 (52.5k)
+0.156 seconds elapsed
+Peak memory usage: 3189302 (3.0M)
