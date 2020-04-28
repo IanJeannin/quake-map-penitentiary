@@ -4,36 +4,36 @@ Output file: penitentiary.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         1463 faces
-          243 brushes
-           53 entities
+         2213 faces
+          367 brushes
+           88 entities
             9 unique texnames
-          308 texinfo
+          427 texinfo
 
 Opened WAD: C:/quake-map-penitentiary/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          218 brushes
-          262 planes
+          327 brushes
+          330 planes
 ---- CSGFaces ----
-         1313 brushfaces
-         1488 csgfaces
-         1234 mergedfaces
+         1973 brushfaces
+         2080 csgfaces
+         1666 mergedfaces
 ---- SolidBSP ----
-         1484 split nodes
-          556 solid leafs
-          929 empty leafs
+         1961 split nodes
+          750 solid leafs
+         1212 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2698 leaffaces
-         2599 nodefaces
+         3774 leaffaces
+         3650 nodefaces
 ---- Portalize ----
-          929 vis leafs
-          929 vis clusters
-         2515 vis portals
+         1212 vis leafs
+         1212 vis clusters
+         3291 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-68 4 436), no filling performed.
 Leak file written to penitentiary.pts
@@ -46,20 +46,20 @@ Processing hull 2...
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote penitentiary.bsp
-          895 planes            17900
-         3277 vertexes          39324
-         1634 nodes             39216
-          280 texinfo           11200
-         2749 faces             54980
-         3862 clipnodes         30896
-         1080 leafs             30240
-         2848 marksurfaces       5696
-        10954 surfedges         43816
-         6915 edges             27660
+         1101 planes            22020
+         4782 vertexes          57384
+         2201 nodes             52824
+          385 texinfo           15400
+         3890 faces             77800
+         4716 clipnodes         37728
+         1453 leafs             40684
+         4014 marksurfaces       8028
+        15524 surfedges         62096
+         9918 edges             39672
             9 textures          92840
               lightdata             0
               visdata               0
-              entdata            2162
+              entdata            3372
 
-0.337 seconds elapsed
-Peak memory usage: 16991232 (16.2M)
+0.473 seconds elapsed
+Peak memory usage: 22506836 (21.5M)
