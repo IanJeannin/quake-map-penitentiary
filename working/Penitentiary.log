@@ -4,62 +4,62 @@ Output file: penitentiary.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         3105 faces
-          517 brushes
-          130 entities
+         3273 faces
+          545 brushes
+          145 entities
            12 unique texnames
-          277 texinfo
+          409 texinfo
 
 Opened WAD: C:/quake-map-penitentiary/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          439 brushes
-          554 planes
+          460 brushes
+          632 planes
 ---- CSGFaces ----
-         2637 brushfaces
-         3042 csgfaces
-         2295 mergedfaces
+         2763 brushfaces
+         3459 csgfaces
+         2565 mergedfaces
 ---- SolidBSP ----
-         3185 split nodes
-         1207 solid leafs
-         1979 empty leafs
+         3503 split nodes
+         1341 solid leafs
+         2163 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         7274 leaffaces
-         7000 nodefaces
+         8076 leaffaces
+         7668 nodefaces
 ---- Portalize ----
-         1979 vis leafs
-         1979 vis clusters
-         5771 vis portals
+         2163 vis leafs
+         2163 vis clusters
+         6287 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-240 -0 436), no filling performed.
+*** WARNING 10: Reached occupant at (-240 -4 436), no filling performed.
 Leak file written to penitentiary.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
-*** WARNING 10: Reached occupant at (-240 -0 436), no filling performed.
+*** WARNING 10: Reached occupant at (-240 -4 436), no filling performed.
 Processing hull 2...
-*** WARNING 10: Reached occupant at (-240 -0 436), no filling performed.
+*** WARNING 10: Reached occupant at (-240 -4 436), no filling performed.
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote penitentiary.bsp
-         2061 planes            41220
-         9694 vertexes         116328
-         3653 nodes             87672
-          256 texinfo           10240
-         7692 faces            153840
-         7996 clipnodes         63968
-         2448 leafs             68544
-         7966 marksurfaces      15932
-        30722 surfedges        122888
-        19477 edges             77908
+         2452 planes            49040
+        10630 vertexes         127560
+         4013 nodes             96312
+          369 texinfo           14760
+         8402 faces            168040
+         8744 clipnodes         69952
+         2674 leafs             74872
+         8810 marksurfaces      17620
+        33545 surfedges        134180
+        21393 edges             85572
            12 textures         141932
               lightdata             0
               visdata               0
-              entdata            6579
+              entdata            7303
 
-0.658 seconds elapsed
-Peak memory usage: 38795008 (37.0M)
+0.731 seconds elapsed
+Peak memory usage: 42573156 (40.6M)
