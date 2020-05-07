@@ -3,15 +3,15 @@ running with 12 threads
 testlevel = 4
 LoadBSPFile: 'penitentiary.bsp'
 BSP is version 29
-  1824 leafs
-  5916 portals
+  1836 leafs
+  5959 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
-average leafs visible: 246
+average leafs visible: 254
 c_noclip: 0
-c_chains: 15923335
-visdatasize:177520  compressed from 415872
+c_chains: 15810414
+visdatasize:177845  compressed from 422280
 Writing penitentiary.bsp as BSP version 29
-  8.6 seconds elapsed
+  6.8 seconds elapsed
