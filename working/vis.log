@@ -1,17 +1,17 @@
 ---- vis / ericw-tools v0.18.1 ----
 running with 12 threads
 testlevel = 4
-LoadBSPFile: 'penitentiary.bsp'
+LoadBSPFile: 'ThroneRoom.bsp'
 BSP is version 29
-  1842 leafs
-  5975 portals
+   641 leafs
+  1922 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
-average leafs visible: 253
+average leafs visible: 156
 c_noclip: 0
-c_chains: 16186942
-visdatasize:178040  compressed from 425502
-Writing penitentiary.bsp as BSP version 29
-  9.6 seconds elapsed
+c_chains: 3685242
+visdatasize:36618  compressed from 51921
+Writing ThroneRoom.bsp as BSP version 29
+  1.7 seconds elapsed
