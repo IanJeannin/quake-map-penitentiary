@@ -2,36 +2,33 @@
 extra 4x4 sampling enabled
 Raytracing backend: Embree
 running with 12 threads
-LoadBSPFile: 'ThroneRoom.bsp'
+LoadBSPFile: 'penitentiary.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: entity at (512 -1152 72) (monster_hell_knight) has unmatched "target" (a)
-WARNING: brush entity with mins (785.00 -127.00 17.0) maxs (991.00 -113.00 191.) (func_door_secret) has empty key/value "message" ""
-WARNING: brush entity with mins (17.00 -127.00 17.00) maxs (223.00 -113.00 191.) (func_door_secret) has empty key/value "message" ""
-249 entities read, 180 are lights.
+463 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	2650 solid faces
+	7204 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 180 initial lights
-SetupLights: 180 after surface lights
-SetupLights: 180 after jittering
+SetupLights: 0 initial lights
+SetupLights: 0 after surface lights
+SetupLights: 0 after jittering
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7....8....9....
-Final count: 180 lights 0 suns in use.
+
+Final count: 0 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 86440
+lightdatasize: 0
 0 switchable light styles (32 max)
-Writing ThroneRoom.bsp as BSP version 29
-0.565 seconds elapsed
+Writing penitentiary.bsp as BSP version 29
+0.835 seconds elapsed
 
 stats:
-3.911492 lights tested, 1.951515 hits per sample point
+0.000000 lights tested, 0.000000 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
