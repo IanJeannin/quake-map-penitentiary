@@ -5,30 +5,30 @@ running with 12 threads
 LoadBSPFile: 'penitentiary.bsp'
 BSP is version 29
 --- LoadEntities ---
-470 entities read, 20 are lights.
+525 entities read, 75 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	7480 solid faces
+	7491 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 20 initial lights
-SetupLights: 20 after surface lights
-SetupLights: 20 after jittering
+SetupLights: 75 initial lights
+SetupLights: 75 after surface lights
+SetupLights: 75 after jittering
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7....8....9..
-Final count: 20 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 75 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 5866
+lightdatasize: 58212
 0 switchable light styles (32 max)
 Writing penitentiary.bsp as BSP version 29
-0.942 seconds elapsed
+1.022 seconds elapsed
 
 stats:
-0.038312 lights tested, 0.032699 hits per sample point
+0.508980 lights tested, 0.305180 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
