@@ -5,49 +5,30 @@ running with 12 threads
 LoadBSPFile: 'penitentiary.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: entity at (1156 -2496 -128) (monster_knight) has unmatched "target" (monsters)
-WARNING: entity at (508 -2492 -128) (monster_knight) has unmatched "target" (monsters)
-WARNING: entity at (500 -3004 -128) (monster_knight) has unmatched "target" (monsters)
-WARNING: entity at (1148 -3004 -128) (monster_knight) has unmatched "target" (monsters)
-WARNING: entity at (252 -2748 -128) (monster_shalrath) has unmatched "target" (monsters)
-WARNING: entity at (252 -3132 -112) (monster_wizard) has unmatched "target" (monsters)
-WARNING: entity at (1408 -3132 -112) (monster_wizard) has unmatched "target" (monsters)
-WARNING: entity at (1408 -2360 -112) (monster_wizard) has unmatched "target" (monsters)
-WARNING: entity at (248 -2364 -112) (monster_wizard) has unmatched "target" (monsters)
-WARNING: entity at (508 -2104 -128) (monster_ogre) has unmatched "target" (monsters)
-WARNING: entity at (1152 -2104 -128) (monster_ogre) has unmatched "target" (monsters)
-WARNING: entity at (1152 -3388 -128) (monster_ogre) has unmatched "target" (monsters)
-WARNING: entity at (508 -3388 -128) (monster_ogre) has unmatched "target" (monsters)
-WARNING: entity at (892 -3272 -128) (monster_hell_knight) has unmatched "target" (monsters)
-WARNING: entity at (764 -3264 -128) (monster_hell_knight) has unmatched "target" (monsters)
-WARNING: entity at (1536 -2748 -128) (monster_hell_knight) has unmatched "target" (monsters)
-WARNING: entity at (128 -2748 -128) (monster_hell_knight) has unmatched "target" (monsters)
-WARNING: entity at (892 -2240 -128) (monster_hell_knight) has unmatched "target" (monsters)
-WARNING: entity at (772 -2224 -128) (monster_hell_knight) has unmatched "target" (monsters)
-449 entities read, 0 are lights.
+470 entities read, 20 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	7529 solid faces
+	7480 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 0 initial lights
-SetupLights: 0 after surface lights
-SetupLights: 0 after jittering
+SetupLights: 20 initial lights
+SetupLights: 20 after surface lights
+SetupLights: 20 after jittering
 --- EstimateLightVisibility ---
-
-Final count: 0 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9..
+Final count: 20 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 0
+lightdatasize: 5866
 0 switchable light styles (32 max)
 Writing penitentiary.bsp as BSP version 29
-0.989 seconds elapsed
+0.942 seconds elapsed
 
 stats:
-0.000000 lights tested, 0.000000 hits per sample point
+0.038312 lights tested, 0.032699 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
