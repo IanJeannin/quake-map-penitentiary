@@ -4,62 +4,61 @@ Output file: penitentiary.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         9766 faces
-         1484 brushes
-          670 entities
-           41 unique texnames
-          920 texinfo
+         9952 faces
+         1515 brushes
+          847 entities
+           38 unique texnames
+          744 texinfo
 
 Opened WAD: C:/quake-map-penitentiary/wads/prototype_1_2.wad
 Opened WAD: C:/quake-map-penitentiary/wads/id1.wad
 Opened WAD: C:/quake-map-penitentiary/wads/rogue.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-         1204 brushes
-         1250 planes
+         1234 brushes
+         1345 planes
 ---- CSGFaces ----
-         7846 brushfaces
-         9894 csgfaces
-         7054 mergedfaces
+         8026 brushfaces
+        10287 csgfaces
+         7334 mergedfaces
 ---- SolidBSP ----
-         9655 split nodes
-         4116 solid leafs
-         5540 empty leafs
+        10619 split nodes
+         4590 solid leafs
+         6030 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        21572 leaffaces
-        19840 nodefaces
+        22837 leaffaces
+        21122 nodefaces
 ---- Portalize ----
-         5540 vis leafs
-         5540 vis clusters
-        16923 vis portals
+         6030 vis leafs
+         6030 vis clusters
+        18779 vis portals
 ---- FillOutside ----
-         2665 outleafs
+         2843 outleafs
 ---- MergeAll ----
-         4906 mergefaces
+         4994 mergefaces
 ---- SolidBSP ----
-         3679 split nodes
-         1787 solid leafs
-         1893 empty leafs
+         3730 split nodes
+         1790 solid leafs
+         1941 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         9097 leaffaces
-         7518 nodefaces
+         9036 leaffaces
+         7395 nodefaces
 ---- Portalize ----
-*** WARNING 12: New portal was clipped away in CutNodePortals_r near (404.772 -1652.198 0.000)
-         1893 vis leafs
-         1893 vis clusters
-         6151 vis portals
+         1941 vis leafs
+         1941 vis clusters
+         6447 vis portals
 ---- Tjunc ----
-         6212 world edges
-        27952 edge points
-         6028 edges added by tjunctions
+         6310 world edges
+        27659 edge points
+         5853 edges added by tjunctions
             0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -67,20 +66,20 @@ Processing hull 1...
 Processing hull 2...
 ---- WriteBSPFile ----
 Wrote penitentiary.bsp
-         3548 planes            70960
-        13080 vertexes         156960
-         4872 nodes            116928
-          718 texinfo           28720
-         9146 faces            182920
-        10628 clipnodes         85024
-         2991 leafs             83748
-        10725 marksurfaces      21450
-        44161 surfedges        176644
-        23016 edges             92064
-           41 textures         333648
+         3696 planes            73920
+        12914 vertexes         154968
+         4932 nodes            118368
+          555 texinfo           22200
+         9029 faces            180580
+        10799 clipnodes         86392
+         3048 leafs             85344
+        10670 marksurfaces      21340
+        43509 surfedges        174036
+        22690 edges             90760
+           38 textures         300876
               lightdata             0
               visdata               0
-              entdata           53477
+              entdata           64558
 
-2.160 seconds elapsed
-Peak memory usage: 77285658 (73.7M)
+2.380 seconds elapsed
+Peak memory usage: 81258728 (77.5M)
