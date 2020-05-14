@@ -5,12 +5,31 @@ running with 12 threads
 LoadBSPFile: 'penitentiary.bsp'
 BSP is version 29
 --- LoadEntities ---
+WARNING: entity at (1156 -2496 -128) (monster_knight) has unmatched "target" (monsters)
+WARNING: entity at (508 -2492 -128) (monster_knight) has unmatched "target" (monsters)
+WARNING: entity at (500 -3004 -128) (monster_knight) has unmatched "target" (monsters)
+WARNING: entity at (1148 -3004 -128) (monster_knight) has unmatched "target" (monsters)
+WARNING: entity at (252 -2748 -128) (monster_shalrath) has unmatched "target" (monsters)
+WARNING: entity at (252 -3132 -112) (monster_wizard) has unmatched "target" (monsters)
+WARNING: entity at (1408 -3132 -112) (monster_wizard) has unmatched "target" (monsters)
+WARNING: entity at (1408 -2360 -112) (monster_wizard) has unmatched "target" (monsters)
+WARNING: entity at (248 -2364 -112) (monster_wizard) has unmatched "target" (monsters)
+WARNING: entity at (508 -2104 -128) (monster_ogre) has unmatched "target" (monsters)
+WARNING: entity at (1152 -2104 -128) (monster_ogre) has unmatched "target" (monsters)
+WARNING: entity at (1152 -3388 -128) (monster_ogre) has unmatched "target" (monsters)
+WARNING: entity at (508 -3388 -128) (monster_ogre) has unmatched "target" (monsters)
+WARNING: entity at (892 -3272 -128) (monster_hell_knight) has unmatched "target" (monsters)
+WARNING: entity at (764 -3264 -128) (monster_hell_knight) has unmatched "target" (monsters)
+WARNING: entity at (1536 -2748 -128) (monster_hell_knight) has unmatched "target" (monsters)
+WARNING: entity at (128 -2748 -128) (monster_hell_knight) has unmatched "target" (monsters)
+WARNING: entity at (892 -2240 -128) (monster_hell_knight) has unmatched "target" (monsters)
+WARNING: entity at (772 -2224 -128) (monster_hell_knight) has unmatched "target" (monsters)
 449 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	7617 solid faces
+	7529 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -26,7 +45,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing penitentiary.bsp as BSP version 29
-0.896 seconds elapsed
+0.989 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
