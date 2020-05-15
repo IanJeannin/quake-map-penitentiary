@@ -5,6 +5,7 @@
 "classname" "worldspawn"
 "wad" "C:/quake-map-penitentiary/wads/prototype_1_2.wad;C:/quake-map-penitentiary/wads/id1.wad;C:/quake-map-penitentiary/wads/rogue.wad"
 "sounds" "07"
+"message" "Penitentiary"
 // brush 0
 {
 ( -3532 -252 344 ) ( -3532 -251 344 ) ( -3532 -252 345 ) sfloor4_5 4 -0 -0 1 1
