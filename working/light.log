@@ -26,7 +26,7 @@ Lighting Completed.
 lightdatasize: 418408
 0 switchable light styles (32 max)
 Writing penitentiary.bsp as BSP version 29
-1.694 seconds elapsed
+1.684 seconds elapsed
 
 stats:
 3.997507 lights tested, 2.148416 hits per sample point
