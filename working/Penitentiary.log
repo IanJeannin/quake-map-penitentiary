@@ -8,7 +8,7 @@ Output file: penitentiary.bsp
          1536 brushes
           848 entities
            39 unique texnames
-          840 texinfo
+          847 texinfo
 
 Opened WAD: C:/quake-map-penitentiary/wads/prototype_1_2.wad
 Opened WAD: C:/quake-map-penitentiary/wads/id1.wad
@@ -66,10 +66,10 @@ Processing hull 1...
 Processing hull 2...
 ---- WriteBSPFile ----
 Wrote penitentiary.bsp
-         3701 planes            74020
+         3719 planes            74380
         13011 vertexes         156132
          4956 nodes            118944
-          637 texinfo           25480
+          642 texinfo           25680
          9082 faces            181640
         10776 clipnodes         86208
          3064 leafs             85792
@@ -79,7 +79,7 @@ Wrote penitentiary.bsp
            39 textures         306360
               lightdata             0
               visdata               0
-              entdata           64607
+              entdata           63649
 
-2.325 seconds elapsed
-Peak memory usage: 81557408 (77.8M)
+2.368 seconds elapsed
+Peak memory usage: 81557868 (77.8M)
